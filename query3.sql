@@ -1,0 +1,1 @@
+SELECT b.title from books b, books_subjects bs where b.id = bs.book and (bs.subject = 3 or bs.subject = 8);

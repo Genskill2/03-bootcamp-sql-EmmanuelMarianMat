@@ -1,0 +1,1 @@
+SELECT s.name from books_subjects bs, subjects s where bs.subject=s.id and bs.book=6;
